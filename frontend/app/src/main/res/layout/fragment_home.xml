@@ -41,7 +41,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="70dp"
             android:layout_marginRight="15dp"
-            android:background="@drawable/border_input"
+            android:background="@drawable/background_input_box"
             android:cursorVisible="true"
             android:drawableLeft="@drawable/ic_search"
             android:drawablePadding="5dp"
@@ -56,6 +56,7 @@
 
 
         <Button
+            android:id="@+id/btn_myfavorites"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="130dp"
@@ -94,7 +95,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:background="@drawable/round_btn"
+            android:background="@drawable/background_round_btn"
             android:contentDescription="btn add"
             android:src="@drawable/ic_add"
             app:tint="@color/white" />
